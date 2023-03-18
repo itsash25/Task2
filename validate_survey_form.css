@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.logo{
+    padding-left: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 500px;
+}
+
+.blue{
+    background-color: rgb(45, 171, 255);
+    padding-left: 510px;
+    padding-right: 500px;
+}
+
+.aliceblue{
+    background-color:aliceblue;
+    padding-left: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+    
+}
+
+#submit{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 3px;
+    padding-left: 3px;
+    margin-left : 80px;
+
+}
+
+.formdesign {
+    /* font-size: 20px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.formdesign input {
+     /* width: 50%; */
+    padding: 7px 10px; 
+    border: 1px solid blue;
+     /* margin: 14px; */
+    /* border-radius: 4px; */
+    /* font-size: 15px;  */
+}
+
+.formerror {
+    color: red;
+    font-size: 12px;
+}
+
+.but {
+    border-radius:5px;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    margin: 20px 20px;
+}
+

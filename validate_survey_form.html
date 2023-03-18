@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> CasCode Survey Form</title>
+    <link rel="stylesheet" href="validate_survey_form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="validate_survey_form.js"></script>
+
+    
+
+</head>
+
+<body>
+    <div class="logo">
+        <img src="logo.jpg" alt="">
+    </div>
+    <form name="myForm" onsubmit="return validateForm()" method="post">
+        <div class="blue">
+            <h1>Survey Form</h1>
+        </div>
+        <div class="aliceblue">
+
+            <div class="formdesign" id="name">Name <br>
+                <input type="text" name="fname" placeholder="Enter your full name" required> <br>
+                <span class="formerror"> </span>
+            </div>
+
+            <div class="formdesign" id="email">Email address<br>
+                <input type="email" name="femail" placeholder="abcxyz@gmail.com" required> <br>
+                <span class="formerror"> </span>
+            </div>
+
+            <div class="formdesign" id="phone">Phone Number<br>
+                <input type="phone" name="fphone" placeholder="Enter your phone number" required> <br>
+                <span class="formerror"> </span>
+            </div>
+
+            <div class="formdesign" id="domain">The domain of your internship<br>
+                <input type="radio" name="domain" id="Web Development">
+                <label for="Web Development">Web Development</label> <br>
+
+                <input type="radio" name="domain" id="Andriod Development">
+                <label for="Andriod Development">Andriod Development</label> <br>
+
+                <input type="radio" name="domain" id="UI/UX">
+                <label for="UI/UX">UI/UX</label> <br>
+                <span class="formerror"> </span>
+            </div>
+
+            <div class="formdesign" id="month">In what month did you start the internship? <br>
+                <input type="month"> <br>
+            </div>
+
+            <div class="formdesign" id="tasks">How many tasks did you complete? <br>
+                <input type="radio" name="number" id="1">1 <br>
+                <input type="radio" name="number" id="2">2 <br>
+                <input type="radio" name="number" id="3">3 <br>
+                <input type="radio" name="number" id="4">4 <br>
+            </div>
+
+            <div class="formdesign" id="enhance">Did the tasks enhance your skills?<br>
+                <input type="radio" name="enhance" id="Yes">Yes<br>
+                <input type="radio" name="enhance" id="A little">A little<br>
+                <input type="radio" name="enhance" id="No">No<br>
+            </div>
+
+            <div class="formdesign" id="rate">Rate your experience of the internship<br>
+                <label for="1"></label>
+                <input type="radio" value="1" name="Section" id="1">1 <br>
+
+                <label for="2"></label>
+                <input type="radio" value="2" name="Section" id="2">2 <br>
+
+                <label for="3"></label>
+                <input type="radio" value="3" name="Section" id="3">3 <br>
+
+                <label for="4"></label>
+                <input type="radio" value="4" name="Section" id="4">4 <br>
+
+                <label for="5"></label>
+                <input type="radio" value="5" name="Section" id="5">5 <br>
+            </div>
+
+            <div class="formdesign" id="find">How did you find us?<br>
+                <input type="radio" name="platforms" id="LinkedIn">LinkedIn <br>
+                <input type="radio" name="platforms" id="Instagram">Instagram <br>
+                <input type="radio" name="platforms" id="Facebook">Facebook <br>
+                <input type="radio" name="platforms" id="Through a friend">Through a friend <br>
+            </div>
+
+            <div class="formdesign" id="feedback">Any feedback? <br>
+                <textarea name="feedback" id="feedback" cols="50" rows="10"
+                    placeholder="Write your feedback here"></textarea>
+            </div>
+
+            <p id="submit">
+                <input class="but" type="submit" value="Submit">
+            </p>
+        </div>
+    </form>
+
+</body>
+
+
+</html>
